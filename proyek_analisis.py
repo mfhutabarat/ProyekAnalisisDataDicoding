@@ -66,8 +66,6 @@ st.write("- Nama: <b>Muhammad Ferdiansa Hutabarat</b>", unsafe_allow_html=True)
 st.write("- email: muhammad.ferdiansa.17@gmail.com")
 st.write("- id Dicoding: mfhutabarat")
 
-
-
 # Create bar plots for both casual and registered users
 st.subheader("Daily Bike Sharing Analysis")
 casual_daily_bike_share = hour_df.groupby('dayname')['casual'].sum().sort_values(ascending=False)

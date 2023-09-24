@@ -1,8 +1,7 @@
-# import pandas as pd
+import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
-import pandas as pd
 
 # Load your data
 hour_df = pd.read_csv('hour.csv')
